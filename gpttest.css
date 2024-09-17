@@ -1,0 +1,130 @@
+/* Body styling */
+body {
+    background-image: url("https://cdn.mos.cms.futurecdn.net/k6okX2VVUg4qWoyxuNLsf7-1200-80.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 18px;
+    font-family: 'Arial', Helvetica, sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #f5f5f5;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Summary styling */
+.summary {
+    width: 85%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.summary p {
+    color: #ddd;
+    font-size: 18px;
+}
+
+/* Books section styling */
+.books {
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.books > div {
+    display: flex;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.books img {
+    max-width: 180px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.books p {
+    flex: 1;
+    text-align: left;
+    color: #ddd;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+/* Modal styling */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 50%;
+    border-radius: 10px;
+    color:black;
+}
+
+.close {
+    display: block;
+    background-color: #a0c4c6;
+    color: black;
+    padding: 10px;
+    margin: 20px auto 0;
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close:hover {
+    background-color: #88b2b4;
+}
+
+/* TV Show image styling */
+.tvshow img {
+    display: block;
+    margin: 40px auto;
+    max-width: 50%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
