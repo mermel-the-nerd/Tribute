@@ -7,9 +7,14 @@ var btn = document.getElementById("spoiler");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+let alreadyopen = false;
+
 // When the user clicks on the button, open the modal
 btn.onmouseover = function() {
+  if(alreadyopen==false){
   modal.style.display = "block";
+  alreadyopen=true;
+  }
 }
 
 // When the user clicks on <span> (x), close the modal

@@ -78,6 +78,7 @@ header {
     margin:auto;
     opacity:0.7;
     color: black;
+    font-family:"Nova Oval", system-ui;
 
    
 }
@@ -87,7 +88,8 @@ body {
     background-size:cover;
     background-attachment:fixed;
     font-size:20px;
-    font-family:Arial, Helvetica, sans-serif;
+    
+    font-family: "Sofadi One", system-ui;
     z-index:-1;
     
 }
@@ -114,46 +116,102 @@ body {
 
 .books > div {
   display: flex;
-  align-items: flex-start;
-  gap: 20px; /* Adds space between image and text */
+  flex-direction:row;
+  align-items:flex-start;
+  
   background-color: white;
   opacity: 0.7;
   width:80%;
-  padding: 15px;
+  
   margin:auto;
+}
+
+.book-content {
+  display:flex;
+  flex-direction:column;
+justify-content:center;
+ 
+  gap:20px;
+  padding: 15px;
 }
 
 .books img {
   max-width: 200px; /* Set a max width for the images */
   height: auto;
+  
+  
+  
+  
+ 
+  
 }
 
+.golden-compass img {
+  margin:50px 20px 20px 20px;
+}
+
+
+.subtle-knife img {
+  margin:40px 20px 20px 20px;
+}
+
+.amber-spyglass img {
+  margin:20px;
+}
+
+.book-img {
+  display:flex;
+  align-items:center;
+  
+}
 .books p {
-  flex: 1;
+  
   text-align: left; /* Ensure the text is aligned left */
   margin: 0;
+
 }
 
+.books h2 {
+  text-align:left;
+  margin-bottom:5px;
+}
+
+
+
+
 .tvshow {
-    margin: 40px auto;
+    
     max-width: 50%;
     border-radius: 15px;
     color:white;
     text-align:center;
+    
+}
+
+.tvshow-content {
+  display:flex;
+  align-items:flex-start;
+  gap:20px;
+  padding: 15px;
+margin-left:200px;
+
+
+}
+ 
+
+iframe {
+  margin:auto;
+  
 }
 
 #image {
   max-width:100%;
-  height:auto;
-  margin:auto;
-  display: block;
+  height:auto;  
+  opacity:0.9;
+
 }
 
-
-a {
+#img-caption {
+  text-align:center;
   color:white;
-}
-
-a:hover{
-  color:purple;
 }
