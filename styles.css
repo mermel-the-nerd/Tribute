@@ -181,7 +181,7 @@ justify-content:center;
 
 .tvshow {
     
-    max-width: 50%;
+    
     border-radius: 15px;
     color:white;
     text-align:center;
@@ -201,11 +201,12 @@ margin-left:200px;
 
 iframe {
   margin:auto;
+
   
 }
 
 #image {
-  max-width:100%;
+  max-width:50%;
   height:auto;  
   opacity:0.9;
 
